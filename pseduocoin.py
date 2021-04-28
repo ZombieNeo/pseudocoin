@@ -19,6 +19,7 @@ while True:
         f.close()
         attempts = 0
         loops = loops + 1
+        nonce = nonce = randint(1,1000000)
         while loops > 3:
             time.sleep(100000)
         
